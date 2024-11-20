@@ -476,9 +476,7 @@
     margin-right: 0;
     padding-right: 0;
     border-right: none;
-<<<<<<< Updated upstream
 }
-=======
 /*** Estilo para la página Sobre Nosotros ***/
 .sobre-nosotros-header {
     background-color: var(--primary); /* Fondo naranja */
@@ -560,4 +558,3 @@
 .navbar .btn-primary:hover {
     background-color: var(--primary); /* Fondo del botón al pasar el mouse */
 }
->>>>>>> Stashed changes
