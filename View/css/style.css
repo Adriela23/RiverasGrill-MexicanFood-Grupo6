@@ -477,3 +477,84 @@
     padding-right: 0;
     border-right: none;
 }
+/*** Estilo para la página Sobre Nosotros ***/
+.sobre-nosotros-header {
+    background-color: var(--primary); /* Fondo naranja */
+    color: #0F172B; /* Texto azul para el párrafo general */
+    padding: 40px; /* Aumentar el padding para mayor espacio */
+    text-align: center;
+    font-size: 2rem; /* Tamaño de la fuente más grande */
+    font-weight: bold; /* Hacer el texto más destacado */
+    line-height: 1.6; /* Mejorar la legibilidad con mayor espacio entre líneas */
+    font-family: 'Pacifico', cursive; /* Tipografía Pacifico */
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8), -2px -2px 4px rgba(255, 255, 255, 0.8); /* Bordes blancos */
+}
+
+/* Cambiar el color y tipografía del título específicamente (h1) */
+.sobre-nosotros-header h1 {
+    color: #0F172B; /* Color azul oscuro */
+    font-size: 3rem; /* Tamaño de fuente más grande para el título */
+    font-weight: 700; /* Negrita */
+    margin: 0; /* Eliminar márgenes */
+    font-family: 'Pacifico', cursive; /* Tipografía Pacifico */
+}
+
+.sobre-nosotros-content {
+    background-color: var(--light); /* Fondo claro */
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.sobre-nosotros-content .container {
+    text-align: center;
+}
+
+.sobre-nosotros-content p {
+    font-family: 'Nunito', sans-serif; /* Fuente principal */
+    font-size: 1.2rem;
+    color: var(--dark); /* Texto oscuro */
+    line-height: 1.8;
+}
+
+/*** Botones o enlaces personalizados ***/
+.sobre-nosotros-content .btn {
+    background-color: var(--primary); /* Fondo naranja */
+    color: var(--light); /* Texto blanco */
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.sobre-nosotros-content .btn:hover {
+    background-color: var(--dark); /* Fondo oscuro al pasar el mouse */
+    color: var(--light); /* Texto blanco */
+}
+.navbar {
+    background-color: var(--primary); /* Fondo del menú */
+    color: var(--light); /* Texto claro */
+}
+
+.navbar .nav-link {
+    color: var(--light); /* Enlaces */
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: var(--dark); /* Color al pasar el mouse */
+}
+
+.navbar .btn-primary {
+    background-color: var(--dark); /* Botón Reserva */
+    border: none;
+}
+
+.navbar .btn-primary:hover {
+    background-color: var(--primary); /* Fondo del botón al pasar el mouse */
+}
